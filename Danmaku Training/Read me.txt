@@ -1,0 +1,83 @@
+//----------------------------------------------------//
+//Danmaku Training
+//2019.03.06　ver1.0
+//珠響夢色
+//https://twitter.com/tamayuramusyoku
+//----------------------------------------------------//
+*概要*
+ひたすら円形の弾から逃げるだけ。
+弾幕ゲーの練習にどうぞ。
+非常にシンプルなつくりになっています。
+プレイ動画やツイートなどお待ちしております。
+
+*遊び方*
+・タイトル画面
+↓Enterを押して下さい。
+↓
+・設定画面
+↓各種設定が出来ます。お好みの設定で遊んで下さい。
+↓
+・弾幕
+↓矢印キーかwasdで移動出来ます。
+↓Shiftキーで速度が変わります。
+↓
+・結果
+　ESCキーでポーズ画面に入って終わって下さい。
+　Shiftキーでリザルトを非表示に出来ます。
+　（弾を眺めたい人向け）
+　※スコアはあくまで目安です。あんまし考えてないお。
+
+*遊び要素*
+・タイトル画面で矢印キーを操作することで、弾の画像と自機の画像を変更できます。
+　自機のみShiftキーでサイズを変更できます。
+　「DanmakuTraining.exe」と同じ階層にある「player」「bullet」フォルダに画像を入れて下さい。
+　※見た目が変わるだけで、当たり判定に影響はありません。
+　※.pngと.jpgのみ対応
+
+・「bgm」フォルダに.mp3か.wavを入れるとゲーム中に流れます。
+
+
+*使用した素材*
+「効果音ラボ」様
+https://soundeffect-lab.info
+「OtoLogic」様
+https://otologic.jp
+
+*使用したライブラリ*
+
+	　　　DX Library Copyright (C) 2001-2014 Takumi Yamada.
+
+	　　　libjpeg　Copyright (C) 1991-2013, Thomas G. Lane, Guido Vollbeding.
+
+	　　　libpng　Copyright (C) 2004, 2006-2012 Glenn Randers-Pehrson.
+	　　　zlib　Copyright (C) 1995-2012 Jean-loup Gailly and Mark Adler.
+
+
+	         Mersenne Twister
+	　　　Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura,
+	　　　All rights reserved.
+
+	　　　Redistribution and use in source and binary forms, with or without
+	　　　modification, are permitted provided that the following conditions
+	　　　are met:
+
+	　　　1. Redistributions of source code must retain the above copyright
+	　　　notice, this list of conditions and the following disclaimer.
+
+	　　　2. Redistributions in binary form must reproduce the above copyright
+	　　　notice, this list of conditions and the following disclaimer in the
+	　　　documentation and/or other materials provided with the distribution.
+
+	　　　3. The name of the author may not be used to endorse or promote products
+	　　　derived from this software without specific prior written permission.
+
+	　　　THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+	　　　IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+	　　　OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+	　　　IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+	　　　INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+	　　　NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+	　　　DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+	　　　THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+	　　　(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+	　　　THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
