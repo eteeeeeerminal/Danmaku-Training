@@ -12,4 +12,4 @@
 This software is released under the MIT License, see LICENSE.
 
 # Authors
-Tamayura Musyoku
+Tamayura Souki
